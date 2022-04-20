@@ -1,0 +1,38 @@
+## Instrucciones
+---
+1. En un archivo de texto separado que debes crear, escribe explicaciones de los siguientes conceptos como si se lo estuvieras explicando a un niño de 12 años. Hacer esto te ayudará a descubrir rápidamente cualquier agujero en tu comprensión.
+
+* `for`
+    For es un bucle la cual sirve para hacer un recorrido a la indicas desde un indice inicial hasta un indice final, el recorrido ira de acuerdo al aumento que el programador indique. Dentro del buble for escribiremos un bloque de codigo que se ejecutara y se repetira hasta finalizado el bucle.
+
+    ejemplo:
+    for (let i = 1; i<=10; i++){
+        console.log("Hola este es el mensaje: "+i); // Esto se repetira desde 1,2,3 ... hasta 10. En total 10    veces.
+    }
+
+* `&&`, `||`, `!`
+
+    Estos son operador logicos, son muy utilizados en las sentencias logicas para la toma de decisiones.
+
+    && --> Este es el operador "AND" o "Y" que se utiliza en las sentencias logicas con la cual se puede aplicar este operador para decir que se tienen que cumplir ambas premisas logicas para ser verdadera.
+        ejemplo:
+        var estado = true && true; // v && v -- El valor de estado sera true.
+        if (sent1 && sent2){ // Ya que tiene el operador "AND", tienen que cumplirse tanto "sent1" como "sent2" para que se ejecute el codigo posterior.
+            // Aqui ira el codigo si se cumplen la validacion &&
+        }
+        
+    || --> Este es el operador "OR" u "O" que se utiliza en las sentencias logicas con la cual se puede aplicar este operador para cumplir una de las premisas logicas para que esta sea verdadera.
+        ejemplo:
+        var estado = false || false; // f || f El valor de estado sera falso.
+        if (sent1 || sent2){ // Ya que tiene el operador "OR", tienen que cumplirse "sent1" o "sent2" para que se ejecute el codigo posterior.
+            // Aqui ira el codigo si se cumplen la validacion ||
+        }
+
+    !  --> Este es el operador de NEGACION o "NOT" que se utiliza en las sentencias logicas la cual cambia de estado a un valor logico de verdadero a falso y viceversa.
+        ejemplo:
+        var estado1= !true; // La variable estado1 tendra el valor de falso.
+        var estado2= !false; // La variable estado2 tendra el valor de verdadero.
+
+        if (!sent1){ // Ya que tiene el operador "NOT", si la "sent1" es verdadera para que se ejecute la sentencia if esto sera falso.
+            // Aqui ira el codigo si se cumplen la validacion del operador !
+        }
