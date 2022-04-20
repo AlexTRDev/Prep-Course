@@ -1,0 +1,20 @@
+## Instrucciones
+
+1. En un archivo de texto separado que debes crear, escribe explicaciones de los siguientes conceptos como si se lo estuvieras explicando a un niño de 12 años. Hacer esto te ayudará a descubrir  rápidamente cualquier agujero en tu comprensión.
+
+ * Variables
+    Las variables en programacion son elementos que se crean en memoria, donde se pueden almacenar datos, estos pueden ser variables o estaticos y puedes almacer diferentes tipos de datos en ellas.
+
+ * Strings
+    Los strings son cadenas de caracteres con las cuales podemos escribir palabras, frases, caracteres numericos, etc. La forma de representar y reconocer un String por lo general va entre comillas(");
+
+ * Funciones (argumentos, `return`)
+    Las FUNCIONES son metodos que encierran un conjunto de instrucciones las cuales hacen alguna tarea en especifico, estas funciones ayudan demasiado a la hora de programar ya que a veces necesitamos ese codigo en distintas partees de nuestro proyecto y al tener una funcion solo bastaria con llamarla.
+    Los ARGUMENTOS son parametros locales que le pasamos a las funciones para que estas hagan una determinada tarea concreta.
+    La declaracion RETURN devuelve algun dato de la funcion especificada, con esto si queremos alguna informacion que podemos recuperar de alguna funcion tenemos que asignarle la palabra RETURN la cual nos devolvera un elemento que podremos manipular fuera de la funcion. Si existe algun error la funcion nos devolvera undefined.
+
+ * Declaraciones `if`
+    Las declaraciones IF son sentencias que se utilizan para tomar decisiones, estas operaciones evaluan unas premisas logicas las cuales retorna un boleano que puede ser true(verdadero) o false(falso), si esta devuelve true entonces ejecutara el codigo contenido en la sentencia IF.
+
+ * Valores booleanos (`true`, `false`)
+    Los valores booleanas son de tipo logico estas solo pueden contener 2 valores y pueden ser true(verdadero) o false(falso). Estos valores son mayormente utilizados en las sentencias condicionales y los blucles.
