@@ -1,0 +1,33 @@
+## Instrucciones
+---
+1. En un archivo de texto separado que debes crear, escribe explicaciones de los siguientes conceptos como si se lo estuvieras explicando a un niño de 12 años. Hacer esto te ayudará a descubrir rápidamente cualquier agujero en tu comprensión.
+
+	* Objetos
+        La programacion orientada a objetos se basa en comparar un objeto de programacion con un objeto de la vida real. Los objetos son entidades que tienen propiedades(caracteristicas) y metodos(funciones).
+        Ejemplo: 
+            var Persona = {}; --> Esto es un objeto instanciado basado en una persona.
+            var Carro = {};   --> Esto es un objeto instanciado basado en un carro.
+
+	* Propiedades
+        Las propiedades son las cualidades o caracteristicas de los objetos, es decir, como en el ejemplo anterior tenemos nuestro objeto Carro, una careacteristica de los carros podrian ser el modelo, el color, el diseño, etc. O de tambien el objeto Persona, este tendria caracteristicas como el tamaño, el peso, el sexo, el nombre, etc.
+	
+    * Métodos
+        Los metodos son las funciones que puede hacer el objeto, vamos a seguir basandonos en los ejemplos del objeto carro.
+            Ejemplo:
+            Algunos metodos o funciones que le podriamos agregar al carro es: arrancar, frenar, prender, etc.
+
+	* Bucle `for…in`
+        Este bucle se basa en crear un iterador que recorrea sobre todas las propiedades del objeto.
+            Ejemplo:
+            for(const iterator in Carro){// iterator es la clave de cada nombre de la propiedad del objeto.
+                prompt(iterator); // Muestra un mensaje por interface del nombre de la propiedad.
+                prompt(Carro[iterator]); // Muestra un mensaje de cada valor asignado a cada propiedad.
+            }
+
+	* Notación de puntos vs notación de corchetes
+        La notacion por puntos se utiliza para aceder a las propiedades de un objeto, este identificador despues del punto debe ser valido.
+            Ejemplo:
+            Carro.Color = "rojo"; 
+        La notacion por corchetes puede tener cualquier valor ya que es una cadena.
+            Ejemplo:
+            Carro["Color"] = "rojo";
