@@ -1,0 +1,10 @@
+## Instrucciones
+---
+1. En un archivo de texto separado que debes crear, escribe explicaciones de los siguientes conceptos como si se lo estuvieras explicando a un niño de 12 años. Hacer esto te ayudará a descubrir rápidamente cualquier agujero en tu comprensión.
+
+	* Arrays
+    Los arrays son matrices redimencionales que pueden contener diferentes tipos de datos almacenados. 
+    Se pueden acceder a los elementos de las matrices utilizando indices numericos que van desde la posicion o idice 0 y asi sucesivamente hasta llegar a la longitud de la matriz menos 1(ya que empezamos desde la posicion cero);
+        Ejemplo:
+        const matriz= ["Alex","Terrones","Rivera"]; // Esta es una matriz con 3 elementos
+                        0           1       2       // Estas son las posiciones de los elementos.
