@@ -1,0 +1,16 @@
+# Homework: Javascript V
+
+## Instrucciones
+---
+1. En un archivo de texto separado que debes crear, escribe explicaciones de los siguientes conceptos como si se lo estuvieras explicando a un niño de 12 años. Hacer esto te ayudará a descubrir rápidamente cualquier agujero en tu comprensión.
+
+* `prototype`
+    Los prototipos en JavaScrip ahorra mucho el espacio en la memoria es por eso que se utilizan los prototipos para asignar algun metodo.
+    Los prototipos son caracteristicas que se heredan entre si.
+    Los prototipos son isntancias que hacen referencia al objeto;
+
+* _Constructors_ (de Clases)
+    Los constructores son la forma por la cual se crea e inicializa un objeto de una clase.
+    En el constructor se inicializan las propiedades de la clase.
+    Se pueden pasar argumentos como parametros en el constructor de la clase;
+    
