@@ -1,0 +1,61 @@
+html {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    display: flex;
+    margin: 100px;
+    color: white;
+    font-family: sans-serif;
+    background-image: url(https://img-17.ccm2.net/EBKT4HCAi0BcmcbVZcy85PayHeg=/500x/1a848853efce483caf52f53fc768bf50/ccm-faq/0.jpg);
+}
+
+h1 {
+    color: mediumseagreen;
+}
+
+ul{
+    list-style-type: none;
+}
+div img {
+    width: 400px;
+    height: 300px;
+}
+
+#thirdDiv {
+    height: 600px;
+    width: 500px;
+    background-color: #000000A0;
+    border-color: black;
+    padding: 50px;
+    border: 2px;
+    border-style: double;
+    margin: auto;
+}
+
+
+#spanId{
+    flex: 1 1 auto;
+    font-size: 18px;
+    margin: 50px;
+}
+
+/*CREDITO ADICIONAL*/
+
+div{
+    flex: 1 1 auto;
+    background-color: #000000a0;
+}
+
+.divClass {
+    flex: 1 1 auto;
+    text-align: center;
+    margin: auto;
+}
+
+div a {
+    display: block;
+    color: mediumseagreen;
+    text-decoration-line: none;
+}
