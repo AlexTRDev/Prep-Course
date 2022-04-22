@@ -1,0 +1,64 @@
+html{
+    height: 100%;
+}
+
+h1{
+    color:black;
+    padding-bottom: 0px;
+    height: 5px;
+}
+
+h4{
+    color:rgb(23, 160, 149);
+    padding-left: 20px;
+}
+
+span{
+    font-size: 15px;
+    color:rgb(23, 160, 149);
+}
+
+p{
+    color:rgb(23, 160, 149);
+}
+
+#derecha ul{
+    color: gray;
+}
+
+#derecha section p{
+    padding-left: 20px;
+}
+
+#izquierda ul{
+    list-style-type: none;
+}
+#izquierda{
+    color:white;
+    width: 30%;
+    background-color: rgb(23, 160, 149);
+}
+
+#derecha{
+    width: 70%;
+    background-color: white;
+}
+
+img{
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: inline-flex;
+    background-color: rgb(204, 201, 201);
+}
+
+section{
+    padding-left: 20px;
+    padding-top: 5px;
+    
+}
